@@ -89,29 +89,47 @@ El sistema permite gestionar usuarios y sus posiciones dentro de una empresa a t
 ## 📂 Estructura del Proyecto
 
 ```
-CRUD_FRONTEND/
-├── node_modules/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── header/             # Barra de navegación principal
-│   │   ├── login/              # Componente de inicio de sesión
-│   │   ├── positionFormModal/  # Modal para crear/editar posiciones
-│   │   ├── routes/             # Componente de rutas protegidas
-│   │   ├── showPositions/      # Listado de posiciones
-│   │   ├── showUsers/          # Listado de usuarios
-│   │   └── UserFormModal/      # Modal para crear/editar usuarios
-│   ├── services/
-│   │   └── AuthService.js      # Servicios de autenticación
-│   ├── App.css                 # Estilos globales
-│   ├── App.js                  # Componente principal y rutas
-│   ├── functions.js            # Funciones de utilidad
-│   ├── index.js                # Punto de entrada de React
-│   └── reportWebVitals.js      # Métricas de rendimiento
+management-frontend/
+├── .git/
 ├── .gitignore
+├── node_modules/
 ├── package-lock.json
 ├── package.json
-└── README.md
+├── README.md
+├── public/
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+└── src/
+    ├── App.css
+    ├── App.js
+    ├── functions.js
+    ├── index.js
+    ├── reportWebVitals.js
+    ├── components/
+    │   ├── dashboard/
+    │   │   └── Dashboard.js
+    │   ├── header/
+    │   │   ├── Header.js
+    │   │   └── Header.module.css
+    │   ├── login/
+    │   │   ├── Login.css
+    │   │   └── Login.js
+    │   ├── positionFormModal/
+    │   │   └── PositionFormModal.js
+    │   ├── resetPassword/
+    │   │   └── ResetPassword.js
+    │   ├── routes/
+    │   │   └── ProtectedRoute.js
+    │   ├── showPositions/
+    │   │   └── ShowPositions.js
+    │   ├── showUsers/
+    │   │   ├── ShowUsers.js
+    │   │   └── ShowUsers.module.css
+    │   └── UserFormModal/
+    │       └── UserFormModal.js
+    └── services/
+        └── AuthService.js
 ```
 
 ---
@@ -189,6 +207,15 @@ El sistema implementa las siguientes medidas de seguridad:
 
 *Formulario para editar información de usuarios y puesto con validación en tiempo real*
 
+### Pantalla de cambio de contraseña
+![image](https://github.com/user-attachments/assets/8270a45f-5649-4581-9cfb-1eca90ca4c75)
+![image](https://github.com/user-attachments/assets/5dff983c-710f-46dc-a6de-3feb8e4ccd71)
+*Interfaz de recuperacion de contraseña por medio del numero telefonico*
+
+### Dashboard de metricas estadisticas
+![image](https://github.com/user-attachments/assets/07784854-41d3-4bcf-a2b2-17ae12e04efa)
+
+*Interfaz para metricas estadisticas en diferentes campos del la bd*
 ---
 
 ## 👥 Autores
