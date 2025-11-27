@@ -1,11 +1,11 @@
-# 🚀 Management Backend
+# 🚀 Management Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 ![SweetAlert](https://img.shields.io/badge/SweetAlert-FF6384?style=for-the-badge&logo=sweetalert&logoColor=white)
 
-Interfaz de usuario para el sistema de gestión de usuarios y posiciones desarrollado como parte del proyecto de Ingeniería de Software II. Esta aplicación implementa un CRUD completo con autenticación basada en roles.
+Interfaz de usuario para el sistema de gestión de usuarios y posiciones desarrollado como parte del proyecto de Herramientas de Programación III. Esta aplicación implementa un CRUD completo con autenticación basada en roles.
 
 👉 **Repositorio del backend:** [Management Backend](https://github.com/nykt3r/management-backend)
 
@@ -224,4 +224,4 @@ El sistema implementa las siguientes medidas de seguridad:
 - [**Jarol Stiben Paria Ramírez**](https://github.com/JarolParia)
 - [**Karen Daniela Garzón Morales**](https://github.com/KarenGarzonM)
 
-Todos los desarrolladores participaron activamente en el diseño y desarrollo del **frontend** y **backend** del sistema User CRUD.
+Todos los desarrolladores participaron activamente en el diseño y desarrollo del **frontend** y **backend** del sistema Management.
